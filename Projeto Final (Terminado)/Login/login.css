@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p#sucesso {
+    background-color: rgb(14, 163, 14);
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left:-30px;
+}
+
+#root {
+    position: absolute;
+    left: 40%;
+    height: 100%;
+    width: 900px;
+}
+
+#login {
+    position: relative;
+    top: 20%;
+}
+
+#cabecalho {
+    position: absolute;
+    top: 60px;
+    width: 300px;
+}
+
+#cabecalho p {
+    left: -30px;
+    position: relative;
+    text-align: center;
+}
+
+#cabecalho svg {
+    position: relative;
+    left: 20px;
+}
+
+#login form input {
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+}
+
+#login form p a {
+    text-decoration: none;
+}
+
+#login form p {
+    position: relative;
+    left: 60px;
+    top: -7px;
+    font-size: 12px;
+}
+
+#login form button {
+    background-color: blue;
+    color: aliceblue;
+    position: relative;
+    left: 10px;
+    height: 40px;
+    width: 225px;
+}
+
+#login form .descricao {
+    color: rgba(8, 1, 1, 0.377);
+    position: relative;
+    left: 10px;
+    top: 10px;
+}

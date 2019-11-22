@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro - G1.com</title>
+        <meta charset="utf-8">
+        <link href="../src/menu.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <body>
+        <!-- Menu -->
+        <div  class="menu-root">
+            <div class="parte-superior">
+                <table class="links">
+                    <tr>
+                        <td class="links_td" id="globo" style="color: darkblue"><a href="#">globo.com</a></td>
+                        <td class="links_td" id="g1" style="color: rgba(179, 28, 17, 0.767);"><a href="#">g1</a></td>
+                        <td class="links_td" id="globoesporte" style="color: darkblue"><a href="#">globoesporte</a></td>
+                        <td class="links_td" id="gshow" style="color: darkblue"><a href="#">gshow</a></td>
+                        <td class="links_td" id="videos" style="color: darkblue"><a href="#">Vídeos</a></td>
+                    </tr>
+                </table>
+                <table class="userspace">
+                    <tr>
+                        <td class="links_td"><a href="assinar.html">Assine já</a></td>
+                        <td class="links_td"><a href="login.html">Minha conta</a></td>
+                        <td class="links_td"><a href="email.html">Email</a></td>
+                        <td class="links_td" id="entrar"><a href="../Login/Login.html">Entrar</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- End menu -->
+        <div class="conteudo-raiz">
+            <div id = "campos">
+                <form name="dados" action="cadastro.php" method="POST">
+                    <p class="descricao"> Nome <span id = "required">*</span></p>
+                    <input autofocus type="text" name="nome" placeholder="Nome" required><br><br>
+                    <p class="descricao"> Email <span id = "required">*</span></p>
+                    <input name= "email" type="email" placeholder="E-mail" required><br><br>
+                    <p class="descricao"> Senha <span id = "required">*</span></p>
+                    <input name = "senha" type="password" placeholder="Senha" required><br><br>
+                    <p class="descricao"> Confirmação da senha <span id = "required">*</span></p>
+                    <input type="password" placeholder = "Confirmação da senha" required>
+                    <p class="termos"><input type="checkbox" value="a">Li e concordo com os termos de confiçoes fdkja</p>                   
+                    <input id = "enviar-btn" type="submit" value = "Enviar">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+/* Atribuições globais*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(204, 199, 204, 0.952);
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* Div do conteúdo */
+#glb-doc {
+    margin: 0px;
+    position: relative;
+    left: 200px;
+    width: 1000px;
+}
+
+/* Linha que divide o cabeçálho do conteúdo*/
+#divisoria{
+    position: absolute;
+    top:140px;
+    height: 5px;
+    background-color:blue;
+    width:100%;
+}
+
+/* Menu com a lista de seviços disponíveis */
+
+#menu .lista-submenu {
+    display: none;
+    width: 200px;
+    background: white;
+    position: relative;
+    top: 32px;
+    z-index: 10;
+}
+
+#menu {
+    position: absolute;
+    top:108px;
+    width: 60px;
+}
+#menu .submenu .ativa-sub{
+    position: absolute;
+    top:0px;
+}
+#menu:hover {
+    width: 200px;
+}
+
+#menu:hover .lista-submenu {
+    display: block;
+}
+
+#menu:hover .submenu {
+    background: white;
+    border-top: 2px solid blue;
+}
+
+#menu .submenu {
+    width: 80px;
+}
+
+#menu::after .lista-submenu {
+    width: 100px;
+    display: none;
+}
+
+/* Textos da parte inferior do menu*/
+
+#logo {
+    position: relative;
+    top: 30px;
+}
+
+/* Carrinho*/
+
+#suporte{
+    position: relative;
+    left:900px;
+}
+
+#sub-carrinho{
+    display:none;
+}
+
+/* Corpo do conteudo */
+#glb-corpo{
+    position:relative;
+    top:100px;
+    left:35px;
+}
+.banner-940x455{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-area: auto;
+}
+.link{
+    padding:8px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#campos{
+    position: absolute;
+    left:30%;
+    top : 30%;
+    width:20%;
+}
+#required{
+    color:red;
+}
+.descricao{
+    padding: 2px;
+    font-size: 10px;
+}
+input{
+    width:500px;
+}
+#enviar-btn{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 70%;
+    background: rgba(6, 109, 243, 0.966);
+    top: 50px;
+    border: 0px;
+}
+.termos{
+    position: relative;
+    left:0;
+    font-size: 13px;
+    top : 20px;
+}
+.termos input{
+    position: relative;
+    width: 10px;
+}
